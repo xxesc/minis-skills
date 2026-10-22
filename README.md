@@ -10,6 +10,12 @@
 - **精美信纸邮件**：支持自动渲染为自适应信纸排版，并通过主流 SMTP（163/QQ/Gmail/Outlook 等）发送到邮箱；
 - **本地持久存储**：日记 Markdown 永久沉淀于 `/var/minis/shared/diaries/`。
 
+### 2. [sticker-sender](./skills/sticker-sender)
+> **大肥鱼与咖波高质量贴纸/表情包智能收发技能**
+- **超清重绘版大肥鱼**：内置 70+ 张原画级超清大肥鱼贴纸（512p～1254p）+ 30 张经典猫猫虫咖波透明底 GIF；
+- **智能语义匹配**：支持通过 `/usr/local/bin/sticker-cli` 或意图识别，在干饭、摸鱼、攻坚、撒娇、傲娇回怼等语境下精准发图；
+- **开箱即用与跨会话自举**：自动挂载于 `/var/minis/shared/stickers/`，提供完整 metadata 数据库索引。
+
 *(更多自研技能持续补充中...)*
 
 ---
